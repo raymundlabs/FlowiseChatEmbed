@@ -51,14 +51,14 @@ export const Badge = (props: Props) => {
           {props.footer?.text ?? 'Powered by'}
           <a
             ref={liteBadge}
-            href={props.footer?.companyLink ?? 'https://raymundlabs.framer.ai'}
+            href={props.footer?.companyLink ?? 'https://raymundlab.dev'}
             target="_blank"
             rel="noopener noreferrer"
             class="lite-badge"
             id="lite-badge"
             style={{ 'font-weight': 'bold', color: props.footer?.textColor ?? props.poweredByTextColor ?? defaultTextColor }}
           >
-            <span>&nbsp;{props.footer?.company ?? 'raymundlabs'}</span>
+            <span>&nbsp;{props.footer?.company ?? 'raymundlab'}</span>
           </a>
         </span>
       </Show>
